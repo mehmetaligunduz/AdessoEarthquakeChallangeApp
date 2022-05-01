@@ -22,7 +22,7 @@ public class App {
     }
 
     public void showDataTable(String country, int countDays) {
-        ApiImplementation apiImplementation = new ApiImplementation();
+        Api api = new ApiImplementation();
         try {
             String leftAlignFormat = "| %-15s | %-55s | %-9s | %-10s |%n";
 
@@ -30,7 +30,7 @@ public class App {
             System.out.format("| Country         | Place                                                   | Magnitude | Date                          |%n");
             System.out.format("+-----------------+---------------------------------------------------------+-----------+-------------------------------+%n");
 
-            List<Earthquake> list = apiImplementation.getEarthquakes(country, countDays);
+            List<Earthquake> list = api.getEarthquakes(country, countDays);
             for (Earthquake item : list) {
                 System.out.format(leftAlignFormat, item.getCountry(), item.getPlace(), item.getMagnitude(), item.getDateAndTime());
             }
