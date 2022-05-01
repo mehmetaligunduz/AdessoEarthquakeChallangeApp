@@ -1,4 +1,4 @@
-package com.adesso;
+package com.EarthquakeApi;
 
 import org.json.simple.parser.ParseException;
 

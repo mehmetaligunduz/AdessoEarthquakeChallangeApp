@@ -1,4 +1,4 @@
-package com.adesso;
+package com.EarthquakeApi;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;

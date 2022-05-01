@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AdessoEarthquakeChallangeApp.iml" filepath="$PROJECT_DIR$/AdessoEarthquakeChallangeApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EarthquakeApiChallangeApp.iml" filepath="$PROJECT_DIR$/EarthquakeApiChallangeApp.iml" />
     </modules>
   </component>
 </project>

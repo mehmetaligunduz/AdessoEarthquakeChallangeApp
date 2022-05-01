@@ -1,6 +1,4 @@
-package com.adesso;
-
-import java.util.List;
+package com.EarthquakeApi;
 
 public class Main {
 

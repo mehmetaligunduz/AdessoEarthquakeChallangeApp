@@ -1,4 +1,4 @@
-package com.adesso;
+package com.EarthquakeApi;
 
 import java.util.List;
 import java.util.Scanner;
