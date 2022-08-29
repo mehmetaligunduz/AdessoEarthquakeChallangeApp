@@ -15,6 +15,7 @@ import org.json.simple.parser.ParseException;
 
 
 public class ApiImplementation implements Api {
+    
     @Override
     public List<Earthquake> getEarthquakes(String country, int countDays) throws IOException, ParseException {
         List<Earthquake> earthquakeList = new ArrayList<>();
