@@ -16,6 +16,7 @@ public interface Api {
     * the api has search limit(20000) if your searching, exceeds the search limit it also warns you
     */
     public List<Earthquake> getEarthquakes(String country, int countDays) throws IOException, ParseException;
+    
     /*
     * param int countDays
     * return String
