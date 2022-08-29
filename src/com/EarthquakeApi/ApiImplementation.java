@@ -86,7 +86,7 @@ public class ApiImplementation implements Api {
     * current date when we look at the URL (https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2022-01-01&endtime=2022-01-02)
     * There are two field starttime and endtime, endtime is current date and
     * starttime is current time -(minus) countDays
-    * the method generate endtime and return it.
+    * the method generate starttime and return it.
     * */
     private String helperGetStartDate(int countDays) {
         LocalDate daySubtraction = LocalDate.now().minusDays(countDays);
